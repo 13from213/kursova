@@ -4,6 +4,7 @@ import AccountsController from './AccountsController.js'
 
 const router = new Router()
 
+router.get('/',AccountsController.login)
 router.get('/login',AccountsController.login)
 router.post('/login',AccountsController.loginValidate)
 
