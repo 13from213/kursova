@@ -11,7 +11,7 @@ import cors from 'cors'
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const DB_URL = 'mongodb://localhost:27017/React';
+const DB_URL = 'mongodb+srv://bogdansumy344:Mzn08UpiTUIbv3iL@cluster0.yvi0d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 const PORT = 5000;
 
 const app = express();
